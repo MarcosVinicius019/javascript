@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input type="text" name="txtn" id="txtn" >
+  <input type="button" value="verificar" onclick="verificar()">
+  <div id="res"></div>
+
+  <script>
+    function verificar() {
+      var vogais = document.querySelector("input#txtn");
+      var res = document.querySelector("div#res");
+      var vogal = vogais.value;
+      
+
+      if (vogal =='a' || letra =='e' || letra =='i' || letra =='o' || letra =='u')
+      {
+        res.innerHTML += `${vogal} é uma vogal`
+
+      }
+
+      else {
+
+        res.innerHTML += `${vogal} é uma consoante`
+      }
+
+        
+
+
+      
+
+
+
+
+    }
+
+
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,132 @@
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+</style>
+<body>
+    <p>nome:
+        <input type="text" name="nome" id="txtn">
+    </p>
+    <p>idade:
+        <input type="number" name="numero" id="txti">
+    </p>
+    <p>profissão:
+        <input type="text" name="profissão" id="txtp">
+    </p>
+    <p>hobbies
+        <input type="text" name="hobbies" id="txth">
+    </p>
+
+    <div>
+        <input type="button" value="ok" onclick="ok()">
+    </div>
+    <div id="res">aguardando....</div>
+
+
+    <script>  function ok() {
+        var nome = document.getElementById('txtn')
+        var idade = document.getElementById('txti')
+        var profissão = document.getElementById('txtp')
+        var hobbies = document.getElementById('txth')
+
+        if (nome == 0 || idade == 0 || profissão == 0 || hobbies == 0) {
+            window.alert('Por favor insira todos os dados!')
+        }
+
+        else {
+        var n = (nome.value)
+        var i = Number(idade.value)
+        var p = (profissão.value)
+        var h = (hobbies.value)
+
+        var pessoa = [ n, i, p, h]
+
+        res.innerHTML = (`${pessoa}`)
+        }
+
+        // window.alert(`${pessoa}`)
+    }
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalculadoraDeImc</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<h1>calculadora de IMC</h1>
+<body>
+   
+    <div>
+        <p>Nome:
+            <input type="text" name="nome" id="txtn">
+        </p>
+        <p>idade:
+            <input type="number" name="idade" id="txti">
+        </p>
+        <p>altura:
+            <input type="number" name="altura" id="txta">
+        </p>
+        <p>peso:
+            <input type="number" name="peso" id="txtp">
+        </p>
+        <div>
+            <input type="button" value="calcular" onclick="calcular()">
+        </div>
+    </div>
+    <div id="res">Insira os dados acima...</div>
+
+
+    <script>
+        function calcular() {
+            var nome = document.getElementById('txtn').value
+            var idade = document.getElementById('txti').value
+            var altura = document.getElementById('txta').value
+            var peso = document.getElementById('txtp').value
+
+    
+        var calculo = peso /(altura * altura);
+        var imc = calculo.toFixed(1);
+
+        if (nome == 0 || idade == 0 || altura == 0 || peso == 0) {
+
+
+            window.alert('Por favor, insira todos os dados!')
+
+        } 
+
+        else {
+
+            res.innerHTML = (`${imc}`)
+    
+        }
+
+    }
+            
+           
+       
+        
+        
+
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+C:\Users\venic\OneDrive\Documentos\PROGAMAÇÃO\bin\Debug\net7.0\PROGAMAÇÃO.exe
+C:\Users\venic\OneDrive\Documentos\PROGAMAÇÃO\bin\Debug\net7.0\PROGAMAÇÃO.deps.json
+C:\Users\venic\OneDrive\Documentos\PROGAMAÇÃO\bin\Debug\net7.0\PROGAMAÇÃO.runtimeconfig.json
+C:\Users\venic\OneDrive\Documentos\PROGAMAÇÃO\bin\Debug\net7.0\PROGAMAÇÃO.dll
+C:\Users\venic\OneDrive\Documentos\PROGAMAÇÃO\bin\Debug\net7.0\PROGAMAÇÃO.pdb
+C:\Users\venic\OneDrive\Documentos\PROGAMAÇÃO\obj\Debug\net7.0\PROGAMAÇÃO.csproj.AssemblyReference.cache
+C:\Users\venic\OneDrive\Documentos\PROGAMAÇÃO\obj\Debug\net7.0\PROGAMAÇÃO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\venic\OneDrive\Documentos\PROGAMAÇÃO\obj\Debug\net7.0\PROGAMAÇÃO.AssemblyInfoInputs.cache
+C:\Users\venic\OneDrive\Documentos\PROGAMAÇÃO\obj\Debug\net7.0\PROGAMAÇÃO.AssemblyInfo.cs
+C:\Users\venic\OneDrive\Documentos\PROGAMAÇÃO\obj\Debug\net7.0\PROGAMAÇÃO.csproj.CoreCompileInputs.cache
+C:\Users\venic\OneDrive\Documentos\PROGAMAÇÃO\obj\Debug\net7.0\PROGAMAÇÃO.dll
+C:\Users\venic\OneDrive\Documentos\PROGAMAÇÃO\obj\Debug\net7.0\refint\PROGAMAÇÃO.dll
+C:\Users\venic\OneDrive\Documentos\PROGAMAÇÃO\obj\Debug\net7.0\PROGAMAÇÃO.pdb
+C:\Users\venic\OneDrive\Documentos\PROGAMAÇÃO\obj\Debug\net7.0\PROGAMAÇÃO.genruntimeconfig.cache
+C:\Users\venic\OneDrive\Documentos\PROGAMAÇÃO\obj\Debug\net7.0\ref\PROGAMAÇÃO.dll
